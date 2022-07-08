@@ -20,7 +20,8 @@ row.className = 'row justify-content-center px-2';
 
 let button = document.createElement('div');
 button.className = 'd-flex col-md-8 col-lg-9';
-button.innerHTML = '<button class="btn btn-outline-warning rounded-pill w-100 my-1 m-2">Login</button><button class="btn btn-outline-warning rounded-pill w-100 my-1 m-2">Register</button>';
+button.innerHTML = `<a href="#" target="_blank" class="btn btn-outline-warning rounded-pill w-100 my-1 m-2">Login</a>
+<a href="#" class="btn btn-outline-warning rounded-pill w-100 my-1 m-2">Register</a>`;
 
 let colRef = document.createElement('div');
 colRef.className = 'col-sm-11 col-md-8 col-lg-9';
